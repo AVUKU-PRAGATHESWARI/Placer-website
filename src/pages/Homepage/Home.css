@@ -1,0 +1,68 @@
+/* HomePage.css */
+
+.homepage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .content {
+    flex: 1;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .image-slider {
+    width: 30%; /* Adjust the width as needed */
+    display: flex;
+    overflow: hidden; /* Hide overflowing parts of the rotating images */
+  }
+  
+  .slider-image {
+    flex: 1;
+    height: 150px; /* Set the height of your images */
+    margin: 0 0.5rem;
+    background-size: cover;
+    background-position: center;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .rotate-image {
+    animation: rotateImages 9s linear infinite; /* Adjust the animation duration as needed */
+  }
+  
+  .blur {
+    filter: blur(8px);
+    opacity: 0.5; /* Initial opacity for blur images */
+  }
+  
+  .highlight {
+    filter: brightness(1.5);
+    opacity: 1; /* Initial opacity for highlight image */
+  }
+  
+  @keyframes rotateImages {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-100%);
+    }
+    50% {
+      transform: translateX(-200%);
+    }
+    75% {
+      transform: translateX(-300%);
+    }
+  }
+  
