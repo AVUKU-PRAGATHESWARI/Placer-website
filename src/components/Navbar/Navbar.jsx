@@ -1,7 +1,7 @@
 // Navbar.js
 
 import React, { useState } from 'react';
-import './Navbar.css'; // Create a separate CSS file for styling
+import './Navbar.css';  // Create a separate CSS file for styling
 
 const Navbar = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -15,10 +15,10 @@ const Navbar = () => {
       <div className="logo">Your Logo</div>
 
       <div className={`menu ${isMobile ? 'active' : ''}`}>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#contact">Contact</a>
+        <a className="link-for-data" href="#home">Home</a>
+        <a className="link-for-data" href="#about">About</a>
+        <a className="link-for-data" href="#services">Services</a>
+        <a className="link-for-data" href="#contact">Contact</a>
       </div>
 
       <div className="toggle-button" onClick={handleToggle}>

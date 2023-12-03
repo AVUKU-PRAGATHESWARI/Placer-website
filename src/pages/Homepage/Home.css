@@ -1,5 +1,9 @@
 /* HomePage.css */
 
+.for-homepage-body{
+  background-color: black;
+}
+
 .homepage {
   background: linear-gradient(
       180deg,

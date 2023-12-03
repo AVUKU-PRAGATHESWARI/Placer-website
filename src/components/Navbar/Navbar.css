@@ -1,55 +1,66 @@
 /* Navbar.css */
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    background-color: #333;
-    color: white;
-    opacity: 0.3;
-  }
-  
-  .logo {
-    font-size: 1.5rem;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: linear-gradient(
+    rgb(117, 81, 251) 8.24%,
+    rgb(117, 81, 251) 62.32%,
+    rgb(117, 81, 251) 78.29%,
+    rgb(117, 81, 251) 100%
+);
+ color: white; /* Set text color to white */
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu a {
+  font-size: 20px;
+  font-weight: semi-bold;
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+  margin: 0 1rem;
+}
+
+.toggle-button {
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none; /* Hide by default on larger screens */
+}
+
+@media (max-width: 768px) {
   .menu {
+    display: none; /* Hide on larger screens */
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(
+      180deg,
+      rgb(117, 81, 251) 8.24%,
+      rgba(48, 33, 103, 0.56) 62.32%,
+      rgba(27, 19, 59, 0.43) 78.29%,
+      rgba(0, 0, 0, 0.25) 100%
+  );
+    text-align: center;
+  }
+
+  .menu.active {
     display: flex;
-    flex-direction: row;
   }
-  
-  .menu a {
-    color: white;
-    text-decoration: none;
-    padding: 0.5rem;
-    margin: 0 1rem;
-  }
-  
+
   .toggle-button {
-    font-size: 1.5rem;
-    cursor: pointer;
-    display: none; /* Hide by default on larger screens */
+    display: block; /* Show on smaller screens */
   }
-  
-  @media (max-width: 768px) {
-    .menu {
-      display: none; /* Hide on larger screens */
-      flex-direction: column;
-      position: absolute;
-      top: 60px;
-      left: 0;
-      width: 100%;
-      background-color: #333;
-      text-align: center;
-    }
-  
-    .menu.active {
-      display: flex;
-    }
-  
-    .toggle-button {
-      display: block; /* Show on smaller screens */
-    }
-  }
-  
+}
