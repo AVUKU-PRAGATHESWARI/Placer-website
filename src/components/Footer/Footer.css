@@ -1,0 +1,58 @@
+.for-footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;;
+    align-items: center;
+    justify-content: center;
+}
+
+.for-footer-heading{
+    color: aliceblue;
+}
+
+.for-footer-descrciption{
+    color: aliceblue;
+    width: 80vw;
+    text-align: center;
+}
+
+/* Add some basic styling to the social media links */
+.social-media {
+    margin-top: 10px;
+  }
+  
+  .social-media-desktop {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .social-link {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #333; /* Adjust the color as needed */
+  }
+  
+  /* Style individual social icons */
+  .social-icon {
+    font-size: 2em; /* Adjust the size as needed */
+  }
+  
+  .twitter {
+    color: #1DA1F2; /* Twitter color */
+  }
+  
+  .instagram {
+    color: #E4405F; /* Instagram color */
+  }
+  
+  .linkedin {
+    color: #0077B5; /* LinkedIn color */
+  }
+  
+  .for-footer-quotation{
+    color: #7551FB;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}

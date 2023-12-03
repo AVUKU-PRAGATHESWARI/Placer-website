@@ -1,0 +1,31 @@
+.for-info{
+    background-image: linear-gradient(#A851FB, #985ece,#A851FB, #b68bfc);
+    padding: 3rem;
+    margin: 2rem;
+    width: 45rem;
+    border-radius: 10px;
+}
+
+.for-info-heading{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 35px;
+}
+
+.for-info-paragraph{
+    line-height: 28px;
+    font-size: #3B3535;
+    font-size: 18px;
+}
+
+.for-info-button{
+    color: #5d29a0;
+    background-color: #fff;
+    width: 151px;
+    font-size: 15px;
+    font-weight: bolder;
+    height: 44px;
+    border-radius: 25px;
+    border: 0px;    
+}
