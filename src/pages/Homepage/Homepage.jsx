@@ -8,9 +8,12 @@ const HomePage = () => {
   return (
     <div className="homepage">
       <div className="content">
-        <h1>Welcome to Your Website</h1>
-        <p>This is a description of your website.</p>
-        <button>Login</button>
+        <p className='for-content-top-head'>Discover</p>
+        <h1 className='for-home-data-heading-over'>
+          Endless <span className='for-color-head'>Opportunities</span> with <span className='for-color-head'>Placer</span>
+        </h1>
+        <p className='for-home-data-below'>Where Students Thrive and Alumni Guide</p>
+        <button className='for-home-button'>Login</button>
       </div>
 
       <div className="image-slider">
