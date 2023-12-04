@@ -21,13 +21,13 @@ const HomePage = () => {
 
       <div className="image-slider">
         <div className="slider-image blur rotate-image">
-            <img src={group1} height={100}/> 
+            <img src={group1} height={100} className='for-image'/> 
         </div>
         <div className="slider-image highlight rotate-image">
-            <img src={group2} height={100}/> 
+            <img src={group2} height={100} className='for-image'/> 
         </div>
         <div className="slider-image blur rotate-image">
-            <img src={group3} height={100}/> 
+            <img src={group3} height={100} className='for-image'/> 
         </div>
       </div>
     </div>

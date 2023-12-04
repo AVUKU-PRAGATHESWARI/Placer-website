@@ -5,12 +5,20 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
+  padding-left: 5rem;
   background: linear-gradient(
     rgb(117, 81, 251) 8.24%,
     rgb(117, 81, 251) 62.32%,
     rgb(117, 81, 251) 78.29%,
     rgb(117, 81, 251) 100%
 );
+background: linear-gradient(
+      190deg,
+      rgb(117, 81, 251) 8.24%,
+      rgb(53, 34, 122) 62.32%,
+      rgb(53, 34, 122) 78.29%,
+      rgb(22, 15, 49) 100%
+  );
  color: white; /* Set text color to white */
 }
 

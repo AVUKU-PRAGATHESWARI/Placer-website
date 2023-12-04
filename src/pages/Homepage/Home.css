@@ -1,12 +1,13 @@
 /* HomePage.css */
 
 .for-homepage-body{
+  margin-bottom: -20px;
   background-color: black;
 }
 
 .homepage {
   background: linear-gradient(
-      180deg,
+      220deg,
       rgb(117, 81, 251) 8.24%,
       rgba(48, 33, 103, 0.56) 62.32%,
       rgba(27, 19, 59, 0.43) 78.29%,
@@ -15,7 +16,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem;
+  padding: 5rem 1rem 5rem 5rem;
 }
 
 .for-content-top-head {
@@ -53,14 +54,18 @@
 }
 
 .image-slider {
-  width: 30%; /* Adjust the width as needed */
+  width: 50%; /* Adjust the width as needed */
   display: flex;
   overflow: hidden; /* Hide overflowing parts of the rotating images */
 }
 
+/* .for-image{
+  
+} */
+
 .slider-image {
   flex: 1;
-  height: 150px; /* Set the height of your images */
+  height: 6rem; /* Set the height of your images */
   margin: 0 0.5rem;
   background-size: cover;
   background-position: center;
@@ -68,12 +73,12 @@
 }
 
 .rotate-image {
-  animation: rotateImages 9s linear infinite; /* Adjust the animation duration as needed */
+  animation: rotateImages 8s linear infinite;
 }
 
 .blur {
-  filter: blur(8px);
-  opacity: 0.5; /* Initial opacity for blur images */
+  filter: blur(0px);
+  opacity: 1; /* Initial opacity for blur images */
 }
 
 .highlight {

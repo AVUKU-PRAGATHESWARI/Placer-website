@@ -1,0 +1,156 @@
+.for-course-whole{
+    background-color: black;
+    padding: 0.5rem;
+}
+
+.paraintro{
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        font-size: 1.2rem;
+        font-family: 'Arial', sans-serif; 
+       
+    }
+    .courses-container {
+        text-align: center;
+        margin: 20px;
+      }
+      .horizontal-line-container {
+        display: flex;
+        align-items: center;      
+      }
+      .horizontal-line {
+        border: 0;
+        height: 5px;
+        background: #563cb9;
+        width: 42%; 
+      }
+     #para {
+        margin: 0 10px;
+        color: #563cb9;
+        font-size: 1.2rem;
+        font-family: 'Arial', sans-serif; 
+        list-style: none;
+      }
+     #para1 {
+        width: 9rem;
+        margin: 0 5px;
+        margin-left: -1px;
+        font-size: 1.2rem;
+        font-family: 'Arial', sans-serif; 
+        color: white;
+        text-decoration: none;
+        list-style: none;
+     }
+      .bold-text {
+        font-weight: bold;
+        
+      }
+      
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;        
+      }
+
+      .for-h2{
+        background-color: white;
+        font-size: 1.2rem;
+        font-family: 'Arial', sans-serif; 
+        margin-left: 10px; 
+        color:#8463fc ;
+      }
+    
+    .card {
+        position: relative;
+        width: 18rem;
+        margin: 0.4rem;
+        border: 1px solid black;
+        border-radius:20px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px black ;
+        background-color: #fff;
+      }
+      .for-para {
+      background-color: white;
+        color: #6a6464; 
+        margin-top: 10px; 
+        font-size: 14px;
+        font-family: 'Verdana', sans-serif;
+        line-height: 1.8;
+        margin-top: 10px;
+        margin-left: 20px;
+        text-align: left; 
+      }
+    
+      .card img {
+        width: 100%;
+        height: 200px; 
+        object-fit: cover; 
+        background-color: white;
+      }
+    
+      .card-content {
+        position: relative;
+        padding: 1rem;
+        text-align: center;
+        background-color: white;
+      }
+      
+      .btn {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 8px 16px;
+        background-color: #563cb9;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        }
+    button:hover {        
+        background-color: #2980b9;
+      }
+      
+      
+      @media (max-width: 600px) {
+        .card {
+          height: 20rem; 
+          height: auto; 
+          margin-bottom: 20px; 
+        }
+      
+        .card img {
+          height: 150px; 
+        }
+      
+        .card-content {
+          padding: 1rem; 
+        }
+      
+        .for-h2 {
+          font-size: 1.1rem; 
+        }
+      
+        .for-para {
+          font-size: 14px; 
+        }
+      
+        .btn {
+          padding: 6px 12px; 
+        }
+      }
+      @media (max-width: 600px) {
+      .courses-container {
+        margin: 10px; 
+      }
+    
+      .horizontal-line-container {
+        flex-direction: column; 
+      }
+    
+      .horizontal-line {
+        width: 100%; 
+        margin: 10px 0; 
+      }}

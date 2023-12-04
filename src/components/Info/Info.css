@@ -1,8 +1,11 @@
+.for-info-data{
+    background-color: black;
+    padding: 1rem 5rem;
+}
+
 .for-info{
     background-image: linear-gradient(#A851FB, #985ece,#A851FB, #b68bfc);
     padding: 3rem;
-    margin: 2rem;
-    width: 45rem;
     border-radius: 10px;
 }
 

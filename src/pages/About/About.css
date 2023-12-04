@@ -1,0 +1,28 @@
+
+  .for-about-section{
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    display: flex;
+  }
+
+  .for-about-rightside{
+    width: 50vw;
+    color: white; 
+  }
+
+  .for-para-about{
+    font-size: 1.1rem;
+  }
+
+  .for-button{
+    background-color: blueviolet;
+    color: #fff;
+    font-weight: bold;
+    border: 0px solid;
+    padding: 0.8rem;
+    border-radius: 0.2rem;
+  }
+.for-data{
+     color:#7551FB;
+}
