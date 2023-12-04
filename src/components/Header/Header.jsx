@@ -1,14 +1,14 @@
 import React from 'react';
-import './Home.css'; 
+import './Header.css'; 
 import group1 from '../../assets/group1.jpg';
 import group2 from '../../assets/group2.jpg';
 import group3 from '../../assets/group3.jpg';
 import Navbar from '../../components/Navbar/Navbar';
 
-const HomePage = () => {
+const Header = () => {
   return (
     <div className='for-homepage-body'>
-    <Navbar/>
+    
     <div className="homepage">
       <div className="content">
         <p className='for-content-top-head'>Discover</p>
@@ -35,4 +35,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default Header;
